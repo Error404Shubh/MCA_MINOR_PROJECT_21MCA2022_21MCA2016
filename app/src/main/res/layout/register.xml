@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1D9F3"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="335dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="68dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint=" Name"
+        android:inputType="textPersonName"
+        android:paddingLeft="4dp"
+        android:textColor="#0b0c0e"
+        android:textColorHint="#0b0c0e "
+        app:layout_constraintEnd_toEndOf="@+id/register_password_input"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/register_password_input"
+        app:layout_constraintTop_toTopOf="@+id/register_phone_number_input" />
+
+    <EditText
+        android:id="@+id/register_password_input"
+        android:layout_width="335dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="4dp"
+        android:textColorHint="#0b0c0e"
+        app:layout_constraintEnd_toEndOf="@+id/register_phone_number_input"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/register_phone_number_input"
+        app:layout_constraintTop_toTopOf="@+id/register_username_input" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="383dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="316dp"
+        android:fontFamily="@font/rockoflf"
+        android:text=" Create a New Account"
+        android:textColor="#000000"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="339dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="Please Put Your Information Below to Create
+        a new account for using This App."
+        android:textColor="@color/small"
+        android:textSize="16dp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+    <EditText
+        android:id="@+id/register_phone_number_input"
+        android:layout_width="335dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/input_design"
+        android:ems="10"
+        android:hint=" Phone Number"
+        android:inputType="number"
+        android:paddingLeft="4dp"
+        android:textColor="#0b0c0e"
+        android:textColorHint="#0b0c0e"
+        app:layout_constraintEnd_toEndOf="@+id/textView3"
+        app:layout_constraintHorizontal_bias="0.416"
+        app:layout_constraintStart_toStartOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/register_btn"
+        android:layout_width="207dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/button1"
+        android:color="#ef6d57"
+        android:text="Register"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/register_username_input"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="@+id/register_username_input"
+        app:layout_constraintTop_toTopOf="@+id/register_password_input" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

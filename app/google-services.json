@@ -1,0 +1,40 @@
+
+{
+  "project_info": {
+    "project_number": "132855844670",
+    "project_id": "shopbeta-168c8",
+    "storage_bucket": "shopbeta-168c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132855844670:android:a938f200c85037b266266f",
+        "android_client_info": {
+          "package_name": "com.shubham.betaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132855844670-7g58d6lse5cqvuh9b8jtscb4codqiqhu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFHwSCAh9d8tPD8wEn1yoe3DU0oU1_FjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132855844670-7g58d6lse5cqvuh9b8jtscb4codqiqhu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
